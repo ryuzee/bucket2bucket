@@ -25,4 +25,4 @@ A ruby script to copy every objects from a Amazon S3 bucket to another.
 
 ## Example
 
-    ruby bucket2bucket.rb -i AQWERTYUIOP -k asdfghjklzxcvbnmqwertyuiop -s some-bucket -d other-bucket -D copied-from-some-bucket/ -v -t 10
+    bundle exec ruby bucket2bucket.rb -i AQWERTYUIOP -k asdfghjklzxcvbnmqwertyuiop -s some-bucket -d other-bucket -D copied-from-some-bucket/ -v -t 10
